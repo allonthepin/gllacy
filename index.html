@@ -1,16 +1,19 @@
-<!DOCTYPE html>
-<html lang="ru">
+          <!DOCTYPE html>
+          <html lang="ru">
 <head>
   <meta charset="UTF-8">
   <title>Gllacy shop</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+  <link href="css/normalize.css" rel ="stylesheet">
+  <link href="css/style.css" rel="stylesheet" >
 </head>
 <body>
   <header>
-    <nav>
+    <nav class="main-navigation">
       <a>
        <img src="img/logo.svg" alt="Gllacy shop">
       </a>
-      <ul>
+      <ul class="main-navigation-links">
         <li>
           <a href="catalog.html">Каталог</a>
           <div>
@@ -40,7 +43,7 @@
           <a href="about.html">О компании</a>
         </li>
       </ul>
-      <ul>
+      <ul class="user-navigation">
         <li> 
           <a href="search.html"> Поиск</a>
           <div>
@@ -85,36 +88,36 @@
       <h2>Акция</h2>
       <ul>
         <li>
-          <h3>Крем-брюле и пломбир с малиновым джемом</h3>
+          <h3 class="slider-title">Крем-брюле и пломбир с малиновым джемом</h3>
           <img src="img/slider/icecream.jpg" alt="">
-          <button type="button">Давайте оба!</button>
+          <button type="button" class="slider-button">Давайте оба!</button>
         </li>
         <li>
-          <h3>Пломбир с помадкой и клубничный щербет</h3>
+          <h3 class="slider-title">Пломбир с помадкой и клубничный щербет</h3>
           <img src="img/slider/icecream1.jpg" alt="">
-          <button type="button">Давайте оба!</button>
+          <button type="button" class="slider-button">Давайте оба!</button>
         </li>
         <li>
-          <h3>Шоколадный пломбир и лимонный сорбет </h3>
+          <h3 class="slider-title">Шоколадный пломбир и лимонный сорбет </h3>
           <img src="" alt="">
-          <button type="button">Давайте оба!</button>
+          <button type="button" class="slider-button">Давайте оба!</button>
         </li>
       </ul>
 
       <article>
-        <h3>Малинка даром!</h3>
-        <p>При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.</p>
-        <a href="#">Хочу варенье!</a>
+        <h3 class="article-title">Малинка даром!</h3>
+        <p class="article-text">При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.</p>
+        <a href="#" class="article-link">Хочу варенье!</a>
       </article>
       <article>
-        <h3>Шоколадки даром!</h3>
-        <p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
-        <a href="#">Хочу шоколадки!</a>
+        <h3 class="article-title">Шоколадки даром!</h3>
+        <p class="article-text">При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
+        <a href="#" class="article-link">Хочу шоколадки!</a>
       </article>
     </section>
     <section>
       <h2>Хиты</h2>
-      <ul>
+      <ul class="hits">
         <li>
           <h3>Сливочное с апельсиновым джемом и цитрусовой стружкой</h3>
           <img src="img/icecream/orange.jpg" alt="Фото мороженого">
@@ -137,9 +140,9 @@
         </li>
       </ul>
     </section>
-    <section>
+    <section class="features">
       <h2>Преимущества</h2>
-      <p>Магазин Глэйси — это онлайн- и офлайн-магазин по продаже мороженого собственного производства на развес</p>
+      <p class="title">Магазин Глэйси — это онлайн- и офлайн-магазин по продаже мороженого собственного производства на развес</p>
       <ul>
         <li>
           <p>Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
@@ -155,29 +158,34 @@
         </li>
       </ul>
     </section>
-    <article>
+    <article class="blog-article">
       <a href="#">
-        <h2>10 способов сервировки фруктовых щербетов к столу</h2>
-        <span>Новое в нашем блоге</span>
+        <h2 class="blog-title">10 способов сервировки фруктовых щербетов к столу</h2>
+        <span class="new-in-blog">Новое в нашем блоге</span>
       </a>
     </article>
-    <section>
+    <section class="mailing">
       <h2>Рассылка</h2>
       <p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =) </p>
-      <button type="button">Отправить</button>
+      <form action="echo.htmlacademy.ru" method="POST" class="email">
+        <input type="email" name="email" placeholder="Электронная почта">
+        <button type="submit" class="button">Отправить</button>
+      </form>
     </section>
     <section>
       <h2>Адрес</h2>
       <img src="img/map.jpg" alt=" Фото карты">
-      <p>
-        <span>Адрес главного офиса и офлайн-магазина</span>
-        <span>ул. Большая Конюшенная 19/8, Санкт-Петербург</span>
-        <span>Для заказов по телефону:</span>
-        <span>8 812 450-25-25(с 10 до 20 ежедневно)</span>
+      <p class="info">
+        <span class="info-text">Адрес главного офиса и офлайн-магазина</span>
+        <b class="adress">ул. Большая Конюшенная 19/8, Санкт-Петербург</b>
+        <span class="info-text">Для заказов по телефону:</span>
+        <b class="phone-number">8 812 450-25-25</b>
+        <span class="info-text">(с 10 до 20 ежедневно)</span>
+        <a href="#" class="info-link">Форма обратной связи</a>
       </p>
     </section>
   </main>
-  <footer>
+  <footer class="main-footer">
     <ul>
       <li>
         <a href="#">Твиттер</a>
@@ -194,7 +202,7 @@
     </ul>
     <ul>
       <li>
-        <a href="#">Для поставщиков</a>
+        <a href="#" class="active">Для поставщиков</a>
       </li>
       <li>
         <a href="#">О производстве</a>

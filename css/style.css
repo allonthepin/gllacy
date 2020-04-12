@@ -1,0 +1,230 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.38;
+  font-weight: normal;
+  color: #ffffff;
+  background-color: #849d8f
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 1.13;
+  color: #ffffff;
+}
+
+.main-navigation-links {
+  font-size: 16px;
+  line-height: 1.13;
+  font-weight: bold;
+  color: #ffffff;
+
+}
+
+.user-navigation {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.features {
+ font-size: 16px;
+ line-height: 1.38;
+ font-weight: normal;
+ color: #323232; 
+ background-image: url("../img/waffle.png"); 
+}
+
+.title {
+  font-size: 24px;
+  line-height: 1.25;
+  font-weight: 500;
+}
+
+.blog-article {
+  background-image: url("../img/sorbet.jpg");
+  background-repeat: no-repeat;
+  color: #323232 ;
+}
+
+.blog-title {
+   font-size: 24px;
+   line-height: 1.25;
+   font-weight: bold;
+   text-decoration: underline;
+}
+
+.new-in-blog {
+  font-size: 16px;
+  line-height: 1.38;
+  font-weight: 500;
+}
+
+.mailing {
+  font-size: 16px;
+  font-weight: 400;
+  color: #5a5a5a;
+  background-color: #f8f7f4;
+}
+
+.button {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fefefe;
+  background-color:#ee5e3f;
+}
+
+.email {
+  font-size: 16px;
+  font-weight: normal;
+  color: #999999;
+}
+
+.main-footer {
+  font-size: 13px;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.main-footer .active {
+  font-weight: bold;
+}
+
+
+
+
+
+
+.main-navigation .active {
+  background-color: #d07058;
+}
+
+
+.breadcrumbs {
+  font-size: 14px;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+
+.catalog-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+
+.catalog h3 {
+  font-size: 16px;
+  font-weight: medium;
+  color: #ffffff;
+}
+
+
+.catalog span {
+  font-size: 45px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+
+.pagination-list {
+  font-size: 16px;
+  font-weight: medium;
+  color: #ffffff;
+}
+
+
+.active-pagination-item {
+  font-size: 16px;
+  font-weight: medium;
+  color: #353535;
+  background-color:#ffffff;
+}
+
+
+.slider-title {
+  font-size: 60px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+
+.slider-button {
+  font-size: 32px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #ec583c;
+}
+
+
+.article-title {
+ font-size: 35px;
+ font-weight: bold;
+ color: #ffffff; 
+}
+
+
+.article-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+
+.article-link {
+   font-size: 18px;
+   font-weight: bold;
+   color: #ffffff;
+   background-color: #e74e37; 
+}
+
+
+ .hits h3 {
+   font-size: 16px;
+   font-weight: medium;
+   color: #ffffff;
+ }
+
+
+ .hits span {
+   font-size: 45px;
+   font-weight: bold;
+   color: #ffffff;
+ }
+
+
+ .info-text {
+   font-size: 14px;
+   font-weight: normal;
+   color: #323232;
+ }
+ 
+
+ .adress,
+ .phone-number {
+   font-size: 18px;
+   font-weight: bold;
+   color: #323232;
+ }
+
+ .info-link {
+   font-size: 18px;
+   font-weight: bold;
+   color: #ffffff;
+   background-color:#ea5239; 
+ }
+ 
