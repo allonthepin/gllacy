@@ -19,45 +19,147 @@ ul {
   margin: 0;
 }
 
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
 .main-navigation {
+  display: flex;
+  align-items: center;
   font-size: 16px;
   line-height: 1.13;
   color: #ffffff;
 }
 
+.logo {
+  margin-right: 10px;
+}
+
 .main-navigation-links {
+  display: flex;
   font-size: 16px;
   line-height: 1.13;
   font-weight: bold;
   color: #ffffff;
+}
 
+.main-navigation-links a {
+  padding: 14px; 
+}
+
+.main-navigation-links a:hover {
+  color: rgba(210, 41 , 48, 0.9);
 }
 
 .user-navigation {
+  display: flex;
+  margin-left: auto;
   font-size: 14px;
   line-height: 16px;
   font-weight: 500;
   color: #ffffff;
 }
 
-.features {
- font-size: 16px;
- line-height: 1.38;
- font-weight: normal;
- color: #323232; 
- background-image: url("../img/waffle.png"); 
+.user-navigation a {
+  margin-left: 10px;
+  padding: 8px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
-.title {
+.popup {
+  display: none;
+}
+
+.header-contacts {
+  float: right;
+  margin: 0;
+  text-align: right;
+}
+
+.header-contacts .time {
+  display: block;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold; 
+}
+
+.header-contacts .phone {
+  display: block;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+
+
+.features {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 25px;  
+  padding-bottom: 25px;
+  font-size: 16px;
+  line-height: 1.38;
+  font-weight: normal;
+  color: #323232; 
+  border-radius: 15px;
+  background-image: url("../img/waffle.png"); 
+  background-size: cover;
+}
+
+.features-title {
+  margin: 0;
   font-size: 24px;
   line-height: 1.25;
   font-weight: 500;
 }
 
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.features-list li {
+  width: 50%;
+  padding-top: 25px;
+}
+
+.features-list p {
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 .blog-article {
   background-image: url("../img/sorbet.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
   color: #323232 ;
+  margin-right: 25px;
+  width: 50%;
+  border-radius: 15px;
+  
+}
+
+.blog-article a {
+  padding: 25px 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .blog-title {
@@ -65,12 +167,18 @@ ul {
    line-height: 1.25;
    font-weight: bold;
    text-decoration: underline;
+   margin: 0;
+   max-width: 280px;
 }
 
 .new-in-blog {
   font-size: 16px;
   line-height: 1.38;
   font-weight: 500;
+  order: -1;
+  margin-bottom: 13px;
+
+
 }
 
 .mailing {
@@ -78,19 +186,43 @@ ul {
   font-weight: 400;
   color: #5a5a5a;
   background-color: #f8f7f4;
+  width: 50%;
+  border-radius: 15px;
+  padding: 35px 20px;
+}
+
+.mailing p {
+  margin-top: 0;
+  margin-bottom: 38px;
+
+}
+
+.mail-form {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  margin-right: 11px;
+  color: #999999;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 10px 14px;
+  border: 1px solid rgba(178, 178, 178, 0.52);
+  flex-grow: 1;
 }
 
 .button {
   font-size: 18px;
+  line-height: 24px;
   font-weight: bold;
   color: #fefefe;
   background-color:#ee5e3f;
-}
-
-.email {
-  font-size: 16px;
-  font-weight: normal;
-  color: #999999;
+  padding: 10px 19px;
+  border: 0;
+  border-radius: 50px;
+  box-shadow: 0px 2px 2px 0 rgba(172, 16, 0, 0.64);
+  background-image: linear-gradient(to top, #e74a35, #f26843);
 }
 
 .main-footer {
@@ -227,4 +359,3 @@ ul {
    color: #ffffff;
    background-color:#ea5239; 
  }
- 
